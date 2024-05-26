@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Elmaazouzi: Psychologist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .highlight, .current a {
+            color: #77aaff;
+            font-weight: bold;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .main {
+            padding: 15px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        .social a {
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Dr Elmaazouzi: Psychologist</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#meetings">Meetings</a></li>
+                    <li><a href="#social">Social Media</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Dr Elmaazouzi is a psychologist dealing with all mental illnesses. Born in 1991 in Casablanca, Dr Elmaazouzi has dedicated their life to understanding and treating various mental health conditions.</p>
+        </section>
+
+        <section id="articles">
+            <h2>Articles</h2>
+            <p>Here you will find a collection of articles written by Dr Elmaazouzi on various topics related to mental health and psychology. (Content to be added)</p>
+        </section>
+
+        <section id="meetings">
+            <h2>Meetings</h2>
+            <p>Dr Elmaazouzi regularly holds meetings and consultations. Check back here for updates on upcoming events. (Content to be added)</p>
+        </section>
+
+        <section id="social">
+            <h2>Social Media</h2>
+            <p>Follow Dr Elmaazouzi on social media:</p>
+            <p class="social">
+                <a href="https://web.facebook.com/Elmaazouzipsy/" target="_blank">Facebook</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Dr Elmaazouzi: Psychologist &copy; 2024</p>
+    </footer>
+</body>
+</html>
